@@ -72,9 +72,9 @@ Tareas
 
 ## HU11 
 
-1. HU11[5min] Crear un entorno virtual para las dependencias necesarias
-2. HU11[5min] Instalar Django en el entorno virtual
-3. HU11[5min] Crear un nuevo proyecto de Django 
+- [x] 1. HU11[5min] Crear un entorno virtual para las dependencias necesarias
+- [x] 2. HU11[5min] Instalar Django en el entorno virtual
+- [x] 3. HU11[5min] Crear un nuevo proyecto de Django 
 
 ## HU12 
 
