@@ -67,8 +67,8 @@ Tareas
 
 ## HU10 
 
-1. HU10[120min] Maquetar la plantilla en HTML Para mostrar los registros
-2. HU10[30min] Conectar la plantilla con la vista de Django
+- [x] 1. HU10[120min] Maquetar la plantilla en HTML Para mostrar los registros
+- [x] 2. HU10[30min] Conectar la plantilla con la vista de Django
 
 ## HU11 
 
