@@ -21,7 +21,8 @@ Cuenta en pipedrive
 9. Como desarrollador quiero hacer una Api para hacer los CRUD
 10. Como desarrollador quiero mostrar la funcionalidad de la api en una pagina web
 11. Como desarrollador quiero usar Django como framework para controlar las funcionalidades y presentar las vistas en la pagina
-12. Como desarrollador quiero realizar pruebas a la api y documentarlas
+12. Como desarrollador quiero subir archivos pdf a los deals
+13. Como desarrollador quiero realizar pruebas a la api y documentarlas
 
 Tareas
 
@@ -76,6 +77,13 @@ Tareas
 - [x] 2. HU11[5min] Instalar Django en el entorno virtual
 - [x] 3. HU11[5min] Crear un nuevo proyecto de Django 
 
-## HU12 
+## HU12
 
-1. HU12[120min] Documentar pruebas
+- [x] 1. HU12[20min] Crear metodo para leer los documentos
+- [x] 2. HU12[25min] Crear metodo para subir archivos
+- [ ] 3. HU12[30min] Limitar a solo archivos pdf
+- [x] 4. HU12[15min] Mostrar los documentos actuales en la template
+
+## HU13 
+
+1. HU13[120min] Documentar pruebas

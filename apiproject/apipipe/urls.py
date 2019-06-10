@@ -17,7 +17,7 @@ urlpatterns = [
     path('$/deleteactivity/(?P<pk>\d+)',views.delete_activity_html,name="delete_activity_html"),
     path('$/update_activity/',views.update_activity_html,name="update_activity_html"),
 
-
+    path('$/addfile',views.add_file_html,name="add_file_html"),
 
 
 

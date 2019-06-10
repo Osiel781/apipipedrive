@@ -122,3 +122,27 @@ class ApiPipedrive:
         if activity_id is not None:
             url = "activities/{0}".format(activity_id)
             return self._delete(url)
+
+
+#METODOS PARA FILES#
+
+
+    def get_files(self, file_id=None, **kwargs):
+        if file_id is not None:
+            url = "files/{0}".format(file_id)
+        else:
+            url = "files"
+        return self._get(url, **kwargs)
+
+
+    def add_files_to_deal(self, deal_id=None,file=None ,**kwargs):
+        if deal_id is not None:
+            url="files"
+            if kwargs is not None:
+                params = {}
+                params.update(kwargs)
+
+                f=open('/home/osiel/TH/apipipedrive/apiproject/apipipe/'+ file, 'rb')
+                files={'file': f}
+                data={'file_type':'pdf', 'deal_id':deal_id}
+                return self._post(url,data=data, json=files)
