@@ -86,4 +86,13 @@ Tareas
 
 ## HU13 
 
-1. HU13[120min] Documentar pruebas
+- [x] 1. HU13[120min] Documentar pruebas
+
+
+## RESULTADOS OBTENIDOS
+
+Se logró crear la api con todas las funcionalidades de las historias de usuario 1,2,3,5,6,7,8,9,10,11,13
+
+Las pruebas que se realizaron fueron las inserción de datos, modificación y eliminación de deals, actividades y personas, todas tuvieron resultados exitosos.
+
+El archivo con el codigo de la api se encuentra en apiproject/apipipe/api.py en este archivos se encuentran todas los metodos necesarios para los CRUD.
