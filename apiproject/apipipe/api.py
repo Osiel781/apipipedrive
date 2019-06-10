@@ -94,3 +94,31 @@ class ApiPipedrive:
         if data_id is not None:
             url = "persons/{0}".format(data_id)
             return self._delete(url)
+
+
+#METODOS PARA CRUD DE ACTIVIDADES#
+    def get_activities(self, activity_id=None, **kwargs):
+        if activity_id is not None:
+            url = "activities/{0}".format(activity_id)
+        else:
+            url = "activities"
+        return self._get(url, **kwargs)
+
+    def add_activity(self, **kwargs):
+        if kwargs is not None:
+            url = "activities"
+            params = {}
+            params.update(kwargs)
+            return self._post(url, json=params)
+
+    def update_activity(self, activity_id, **kwargs):
+        if activity_id is not None:
+            url = "activities/{0}".format(activity_id)
+            params = {}
+            params.update(kwargs)
+            return self._put(url, json=params)
+
+    def delete_activity(self, activity_id):
+        if activity_id is not None:
+            url = "activities/{0}".format(activity_id)
+            return self._delete(url)

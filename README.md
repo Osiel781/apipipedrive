@@ -55,10 +55,10 @@ Tareas
 
 ## HU8 
 
-1. HU8[10min] Crear metodo para leer actividades
-2. HU8[10min] Crear metodo para crear actividades
-3. HU8[10min] Crear metodo para actualizar actividades
-4. HU8[10min] Crear metodo para eliminar actividades
+- [x] 1. HU8[10min] Crear metodo para leer actividades
+- [x] 2. HU8[10min] Crear metodo para crear actividades
+- [x] 3. HU8[10min] Crear metodo para actualizar actividades
+- [x] 4. HU8[10min] Crear metodo para eliminar actividades
 
 ## HU9 
 
