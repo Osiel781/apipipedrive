@@ -36,8 +36,8 @@ Tareas
 
 ## HU5 
 
-1. HU5[30min] Leer la documentación de la pagina 
-2. HU5[30min] Conectar proyecto con la api
+- [x] 1. HU5[30min] Leer la documentación de la pagina 
+- [x] 2. HU5[30min] Conectar proyecto con la api
 
 
 ## HU6 
@@ -63,7 +63,7 @@ Tareas
 ## HU9 
 
 
-1. HU9[90min] Crear metodos GET,POST,PUT,DELETE para la api
+- [x] 1. HU9[90min] Crear metodos GET,POST,PUT,DELETE para la api
 
 ## HU10 
 
