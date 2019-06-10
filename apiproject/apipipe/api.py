@@ -37,3 +37,31 @@ class ApiPipedrive:
 
     def _put(self, endpoint, json=None, **kwargs):
         return self.make_request('put', endpoint, json=json, **kwargs)
+
+
+#METODOS PARA CRUD DE DEALS#
+    def get_deals(self, deal_id=None, **kwargs):
+        if deal_id is not None:
+            url = "deals/{0}".format(deal_id)
+        else:
+            url = "deals"
+        return self._get(url, **kwargs)
+
+    def add_deal(self, **kwargs):
+        url = "deals"
+        if kwargs is not None:
+            params = {}
+            params.update(kwargs)
+            return self._post(url, json=params)
+
+    def update_deal(self, deal_id, **kwargs):
+        if deal_id is not None and kwargs is not None:
+            url = "deals/{0}".format(deal_id)
+            params = {}
+            params.update(kwargs)
+            return self._put(url, json=params)
+
+    def delete_deal(self, deal_id):
+        if deal_id is not None:
+            url = "deals/{0}".format(deal_id)
+            return self._delete(url)

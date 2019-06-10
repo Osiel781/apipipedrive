@@ -41,10 +41,10 @@ Tareas
 
 
 ## HU6 
-1. HU6[20min] Crear metodo para leer deals
-2. HU6[20min] Crear metodo para crear deals
-3. HU6[20min] Crear metodo para actualizar deals
-4. HU6[20min] Crear metodo para eliminar deals
+- [x] 1. HU6[20min] Crear metodo para leer deals
+- [x] 2. HU6[20min] Crear metodo para crear deals
+- [x] 3. HU6[20min] Crear metodo para actualizar deals
+- [x] 4. HU6[20min] Crear metodo para eliminar deals
 
 ## HU7 
 
