@@ -48,10 +48,10 @@ Tareas
 
 ## HU7 
 
-1. HU7[10min] Crear metodo para leer personas
-2. HU7[10min] Crear metodo para crear personas
-3. HU7[10min] Crear metodo para actualizar personas
-4. HU7[10min] Crear metodo para eliminar personas
+- [x] 1. HU7[10min] Crear metodo para leer personas
+- [x] 2. HU7[10min] Crear metodo para crear personas
+- [x] 3. HU7[10min] Crear metodo para actualizar personas
+- [x] 4. HU7[10min] Crear metodo para eliminar personas
 
 ## HU8 
 

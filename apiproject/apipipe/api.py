@@ -65,3 +65,32 @@ class ApiPipedrive:
         if deal_id is not None:
             url = "deals/{0}".format(deal_id)
             return self._delete(url)
+
+#METODOS PARA CRUD DE PERSONAS#
+    def get_persons(self, person_id=None, **kwargs):
+        if person_id is not None:
+            url = "persons/{0}".format(person_id)
+        else:
+            url = "persons"
+        return self._get(url, **kwargs)
+
+
+
+    def add_person(self, **kwargs):
+        if kwargs is not None:
+            url = "persons"
+            params = {}
+            params.update(kwargs)
+            return self._post(url, json=params)
+
+    def update_person(self, data_id, **kwargs):
+        if data_id is not None and kwargs is not None:
+            url = "persons/{0}".format(data_id)
+            params = {}
+            params.update(kwargs)
+            return self._put(url, json=params)
+
+    def delete_person(self, data_id):
+        if data_id is not None:
+            url = "persons/{0}".format(data_id)
+            return self._delete(url)
