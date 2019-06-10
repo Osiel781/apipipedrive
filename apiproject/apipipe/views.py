@@ -29,7 +29,7 @@ def home(request):
 
             contador_deals = contador_deals+1
 
-        print("total" ,contador_deals)
+
 
         for i in range(0,contador_deals):
             list_deals_id.append(dict_deals['data'][i]['id'])
@@ -58,7 +58,7 @@ def home(request):
 
             contador_persons = contador_persons+1
 
-        print("total" ,contador_persons)
+
 
         for i in range(0,contador_persons):
             list_persons_id.append(dict_persons['data'][i]['id'])
@@ -84,7 +84,7 @@ def home(request):
 
             contador_activities = contador_activities+1
 
-        print("total" ,contador_activities)
+
 
         for i in range(0,contador_activities):
             list_activities_id.append(dict_activities['data'][i]['id'])
@@ -111,7 +111,7 @@ def home(request):
 
             contador_files = contador_files+1
 
-        print("total" ,contador_files)
+
 
         for i in range(0,contador_files):
             list_files_id.append(dict_files['data'][i]['id'])
