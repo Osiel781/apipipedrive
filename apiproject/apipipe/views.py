@@ -96,10 +96,45 @@ def home(request):
         list_activities=zip(list_activities_id,list_activities_type,list_activities_due,list_activities_done)
 
 
+    contador_files = 0
+    dict_files= api.get_files()
+
+    list_files_id = []
+    list_files_name = []
+    list_file_type = []
+    list_file_add_time = []
+
+    if(dict_files['data'] == None):
+        list_files=zip(list_files_id,list_files_name,list_file_type,list_file_add_time)
+    else:
+        for v in enumerate(dict_files['data']):
+
+            contador_files = contador_files+1
+
+        print("total" ,contador_files)
+
+        for i in range(0,contador_files):
+            list_files_id.append(dict_files['data'][i]['id'])
+            list_files_name.append(dict_files['data'][i]['file_name'])
+            list_file_type.append(dict_files['data'][i]['file_type'])
+            list_file_add_time.append(dict_files['data'][i]['add_time'])
+
+
+
+        list_files=zip(list_files_id,list_files_name,list_file_type,list_file_add_time)
     context = {'list_persons':list_persons,'contador_persons':contador_persons,'list':list,'contador_deals':contador_deals,'list_activities':list_activities,'contador_activities':contador_activities,'list_files':list_files,'contador_files':contador_files}
 
 
     return render(request,'crud.html',context=context)
+
+
+def add_file_html(request):
+
+    file = request.GET['file']
+    deal_id = request.GET['deal_id']
+    api.add_files_to_deal(deal_id=deal_id,file=file)
+
+    return redirect('home')
 
 
 
