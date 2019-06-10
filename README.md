@@ -1,5 +1,13 @@
 # apipipedrive
 
+Apipipedrive es una Api para realizar consultas CRUD a la plataforma de Pipedrive, las consultas son servidas por medio de vistas utilizando Django como framework
+
+
+## Requerimientos
+
+Django 2.1
+Cuenta en pipedrive
+
 ## Historias de usuario:
 
 1. Como cliente quiero un CRUD de Deals
