@@ -186,7 +186,7 @@ Este archivo es importado al archivo views.py el cual hace uso de la clase Apipi
 1. Django 2.1
 2. Cuenta en pipedrive
 
-#La gestión de la prueba fue realizada con base en los requerimientos como historias de usuarios
+# La gestión de la prueba fue realizada con base en los requerimientos como historias de usuarios
 
 ## Historias de usuario:
 
